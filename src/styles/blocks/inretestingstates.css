@@ -102,3 +102,31 @@
 .otstup {
   gap: 124px;
 }
+
+@media (width < 1280px) {
+  .inretesting-states {
+    margin-top: 50px;
+  }
+
+  .inretesting-states__banner {
+    gap: 30px;
+  }
+
+  .inretesting-states__banner__header {
+    gap: 10px;
+  }
+
+  .inretesting-states__banner__header__title {
+    font-size: 24px;
+  }
+
+  .inretesting-states__banner__header__description {
+    font-size: 16px;
+  }
+}
+
+@media (width < 768px) {
+  .blog {
+    grid-column: span 6 / span 6;
+  }
+}

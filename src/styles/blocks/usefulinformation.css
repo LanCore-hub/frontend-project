@@ -72,3 +72,62 @@
 .banner__left__list__item {
   list-style-type: disc;
 }
+
+@media (width < 1280px) {
+  .useful-information {
+    margin-top: 40px;
+  }
+
+  .usefulinformation__title {
+    font-size: 24px;
+  }
+
+  .banner {
+    margin-top: 25px;
+  }
+
+  .banner__right__title {
+    font-size: 21px;
+  }
+
+  .group__title {
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  .group__description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (width < 768px) {
+  .usefulinformation__title {
+    font-size: 16px;
+  }
+
+  .banner__right__title {
+    font-size: 16px;
+  }
+
+  .group__title {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .group__description {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (width < 576px) {
+  .banner__left {
+    grid-column: span 12 / span 12;
+  }
+
+  .banner__right {
+    margin-left: 0;
+    grid-column: span 12 / span 12;
+  }
+}
