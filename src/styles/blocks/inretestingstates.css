@@ -12,7 +12,7 @@
   gap: 48px;
 }
 
-.inretesting-states__banner__header {
+.inretesting-states__header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
   align-self: stretch;
 }
 
-.inretesting-states__banner__header__title {
+.inretesting-states__title {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
@@ -29,7 +29,7 @@
   align-self: stretch;
 }
 
-.inretesting-states__banner__header__description {
+.inretesting-states__description {
   color: #6b7280;
   width: 672px;
   text-align: center;
@@ -72,14 +72,14 @@
   height: 100%;
 }
 
-.blog__body__info {
+.blog__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
 }
 
-.blog__body__avatar-and-date {
+.blog__avatar-and-date {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -87,13 +87,13 @@
   bottom: 24px;
 }
 
-.blog__body__avatar-and-date__text {
+.blog__avatar-and-date-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-.blog__body__avatar-and-date__description {
+.blog__avatar-and-date-descr {
   color: #6b7280;
   font-size: 14px;
   line-height: 28px;
@@ -112,15 +112,15 @@
     gap: 30px;
   }
 
-  .inretesting-states__banner__header {
+  .inretesting-states__header {
     gap: 10px;
   }
 
-  .inretesting-states__banner__header__title {
+  .inretesting-states__title {
     font-size: 24px;
   }
 
-  .inretesting-states__banner__header__description {
+  .inretesting-states__description {
     font-size: 16px;
   }
 }

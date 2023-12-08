@@ -50,52 +50,52 @@
         <div class="header__right">
           <div class="header__name">Ваше имя</div>
           <div class="header__avatar">
-            <img src="/public/Avatar.png" alt="" />
+            <img src="/public/images/Avatar.png" alt="" />
+            <!-- При /images/Avatar.png почему-то не отображается картинка (с остальными изображениями также) -->
           </div>
         </div>
       </div>
     </header>
 
-    <section class="container">
-      <h1 class="titlepage">Личная страница</h1>
-    </section>
+    <h1 class="titlepage container">Личная страница</h1>
 
-    <section class="container useful-information">
-      <h2 class="usefulinformation__title">Полезная информация</h2>
-      <div class="banner">
-        <div class="banner__wrapper">
-          <div class="banner__left">
-            <h3 class="banner__left__title">Заголовок</h3>
-            <ul class="banner__left__list">
-              <li class="banner__left__list__item"><a href="#">Список 1</a></li>
-              <li class="banner__left__list__item"><a href="#">Список 2</a></li>
-              <li class="banner__left__list__item"><a href="#">Список 3</a></li>
-              <li class="banner__left__list__item"><a href="#">Список 4</a></li>
+    <section class="useful-information container">
+      <h2 class="useful-information__title">Полезная информация</h2>
+
+      <header class="news-banner">
+        <div class="news-banner__wrapper">
+          <div class="news-banner__left">
+            <h3 class="news-banner__left-title">Заголовок</h3>
+            <ul class="news-banner__left-list">
+              <li class="news-banner__left-list-item"><a href="#">Список 1</a></li>
+              <li class="news-banner__left-list-item"><a href="#">Список 2</a></li>
+              <li class="news-banner__left-list-item"><a href="#">Список 3</a></li>
+              <li class="news-banner__left-list-item"><a href="#">Список 4</a></li>
             </ul>
           </div>
-          <div class="banner__right">
-            <h3 class="banner__right__title">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
-            <div class="group">
-              <h4 class="group__title">Заголовок</h4>
-              <p class="group__description">
+          <div class="news-banner__right">
+            <h3 class="news-banner__right-title">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
+            <article class="news-group">
+              <h4 class="news-group__title">Заголовок</h4>
+              <p class="news-group__description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
                 deserunt mollit anim id est laborum.
               </p>
-            </div>
-            <div class="group">
-              <h4 class="group__title">Заголовок</h4>
-              <div class="group__description">
-                <p class="group__description">
+            </article>
+            <article class="news-group">
+              <h4 class="news-group__title">Заголовок</h4>
+              <div class="news-group__description">
+                <p class="news-group__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                   aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                   officia deserunt mollit anim id est laborum.
                 </p>
-                <p class="group__description">
+                <p class="news-group__description">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                   aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -103,23 +103,23 @@
                   officia deserunt mollit anim id est laborum.
                 </p>
               </div>
-            </div>
+            </article>
           </div>
         </div>
-      </div>
+      </header>
     </section>
 
-    <section class="container inretesting-states">
+    <section class="inretesting-states container">
       <div class="inretesting-states__banner">
-        <div class="inretesting-states__banner__header">
-          <h2 class="inretesting-states__banner__header__title">Интересные статьи</h2>
-          <span class="inretesting-states__banner__header__description">Описать, о чём эти статьи, кратко</span>
+        <div class="inretesting-states__header">
+          <h2 class="inretesting-states__title">Интересные статьи</h2>
+          <span class="inretesting-states__description">Описать, о чём эти статьи, кратко</span>
         </div>
         <div class="inretesting-states__wrapper">
           <article class="blog">
-            <img src="public/image1.png" alt="" />
+            <img src="/public/images/image1.png" alt="" />
             <div class="blog__body">
-              <div class="blog__body__info">
+              <div class="blog__info">
                 <div class="blog__title">
                   <h3>Boost your conversion rate</h3>
                 </div>
@@ -130,17 +130,17 @@
                   </p>
                 </div>
               </div>
-              <div class="blog__body__avatar-and-date">
-                <div class="blog__body__avatar-and-date__text">
-                  <p class="blog__body__avatar-and-date__description">Mar 16, 2020 · 6 min read</p>
+              <div class="blog__avatar-and-date">
+                <div class="blog__avatar-and-date-text">
+                  <p class="blog__avatar-and-date-descr">Mar 16, 2020 · 6 min read</p>
                 </div>
               </div>
             </div>
           </article>
           <article class="blog">
-            <img src="public/image2.png" alt="" />
+            <img src="/public/images/image2.png" alt="" />
             <div class="blog__body">
-              <div class="blog__body__info">
+              <div class="blog__info">
                 <div class="blog__title">
                   <h3>How to use search engine optimization to drive sales</h3>
                 </div>
@@ -152,17 +152,17 @@
                   </p>
                 </div>
               </div>
-              <div class="blog__body__avatar-and-date">
-                <div class="blog__body__avatar-and-date__text">
-                  <p class="blog__body__avatar-and-date__description">Mar 10, 2020 · 4 min read</p>
+              <div class="blog__avatar-and-date">
+                <div class="blog__avatar-and-date-text">
+                  <p class="blog__avatar-and-date-descr">Mar 10, 2020 · 4 min read</p>
                 </div>
               </div>
             </div>
           </article>
           <article class="blog">
-            <img src="public/image3.png" alt="" />
+            <img src="/public/images/image3.png" alt="" />
             <div class="blog__body">
-              <div class="blog__body__info">
+              <div class="blog__info">
                 <div class="blog__title">
                   <h3>Improve your customer experience</h3>
                 </div>
@@ -176,9 +176,9 @@
               <div class="otstup">
                 <p></p>
               </div>
-              <div class="blog__body__avatar-and-date">
-                <div class="blog__body__avatar-and-date__text">
-                  <p class="blog__body__avatar-and-date__description">Feb 12, 2020 · 11 min read</p>
+              <div class="blog__avatar-and-date">
+                <div class="blog__avatar-and-date-text">
+                  <p class="blog__avatar-and-date-descr">Feb 12, 2020 · 11 min read</p>
                 </div>
               </div>
             </div>
@@ -187,11 +187,9 @@
       </div>
     </section>
 
-    <div class="footer">
-      <div class="footer__text">
-        <p>© 2022 Институт космических и информационных технологий СФУ</p>
-      </div>
-    </div>
+    <footer class="footer">
+      <p class="footer__text">© 2022 Институт космических и информационных технологий СФУ</p>
+    </footer>
 
     <script type="module" src="/src/main.js"></script>
   </body>
