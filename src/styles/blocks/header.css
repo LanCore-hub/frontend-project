@@ -47,3 +47,9 @@
     display: none;
   }
 }
+
+@media (width < 576px) {
+  .header__name {
+    display: none;
+  }
+}

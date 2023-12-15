@@ -36,4 +36,8 @@
   .menu__list {
     gap: 4px;
   }
+
+  .menu__item {
+    font-size: 12px;
+  }
 }

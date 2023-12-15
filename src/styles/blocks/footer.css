@@ -33,3 +33,10 @@
     padding: 20px 40px;
   }
 }
+
+@media (width < 576px) {
+  .footer__text {
+    padding: 15px 20px;
+    font-size: 10px;
+  }
+}

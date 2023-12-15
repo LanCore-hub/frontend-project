@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: 'frontend-project',
+  base: '/frontend-project/',
   build: {
     cssCodeSplit: false,
   },
