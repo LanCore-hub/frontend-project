@@ -29,6 +29,12 @@
   align-self: stretch;
 }
 
+.inretesting-states__list {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .inretesting-states__description {
   color: #6b7280;
   width: 672px;
