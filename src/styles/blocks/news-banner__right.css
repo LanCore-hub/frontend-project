@@ -60,7 +60,6 @@
 
 @media (width < 576px) {
   .news-banner__right {
-    padding-left: 0;
     grid-column: span 3 / span 3;
   }
 }
