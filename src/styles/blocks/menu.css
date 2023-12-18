@@ -16,6 +16,7 @@
   color: #d1d5db;
 }
 
+.menu__item--active,
 .menu__item:hover {
   border-radius: 6px;
   background: #111827;
@@ -24,7 +25,7 @@
 
 @media (width < 768px) {
   .menu {
-    margin-left: 0;
+    padding-left: 0;
   }
 
   .menu__list {
